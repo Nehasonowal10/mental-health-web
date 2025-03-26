@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Header</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    
+<header class="header">
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <label for="nation">Select your nation</label>
+        <select id="nation">
+            <option>INDIA</option>
+            <option>United States</option>
+            <option>SINGAPORE</option>
+        </select>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="balance 101.png" alt="Mental Health Foundation" style="width: 350px; height: 150px;">
+        </div>
+
+        <ul class="nav-links">
+            <li>
+                <a href="#">Our work ▼</a>
+                <ul class="dropdown">
+                    <li><a href="#">Research</a></li>
+                    <li><a href="#">Policy</a></li>
+                    <li><a href="#">Projects</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Get involved ▼</a>
+                <ul class="dropdown">
+                    <li><a href="#">Donate</a></li>
+                    <li><a href="#">Volunteer</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Explore mental health ▼</a>
+                <ul class="dropdown">
+                    <li><a href="#">Articles</a></li>
+                    <li><a href="#">Guides</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">About us ▼</a>
+                <ul class="dropdown">
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Team</a></li>
+                </ul>
+            </li>
+        </ul>
+
+        <!-- Search Box -->
+        <div class="search-box">
+            <input type="text" placeholder="Search">
+            <button>Search</button>
+        </div>
+
+        <!-- CTA Buttons -->
+        <div class="cta-buttons">
+            <a href="#" class="get-help">Get help</a>
+            <a href="#" class="donate">Donate</a>
+        </div>
+    </nav>
+</header>
+<section class="hero">
+    <div class="hero-content">
+        <h1>Everyone deserves good mental health</h1>
+        <p>Today I want to:</p>
+        <div class="dropdown-container">
+            <select id="mental-health-options">
+                <option value="help">Get help for my mental health</option>
+                <option value="support">Support someone else with their mental health</option>
+                <option value="emergency">Get emergency help</option>
+                <option value="awareness">Find out about Mental Health Awareness Week</option>
+                <option value="factors">Learn what factors impact mental health</option>
+                <option value="groups">Find information for different groups of people</option>
+                <option value="info">Find out about mental health</option>
+            </select>
+            <button id="explore-btn">Explore</button>
+        </div>
+    </div>
+    <div class="hero-image">
+        <img src="download.jpeg" alt="Mental Health Awareness">
+    </div>
+</section>
+<section class="awareness-week">
+    <div class="awareness-content">
+        <h1>Mental Health Awareness Week 2025</h1>
+        <p>Mental Health Awareness Week will take place from <strong>12 to 18 May 2025</strong>, and the theme is <strong>'Community'</strong>.</p>
+        <button class="get-involved-btn">Get involved</button>
+    </div>
+    <div class="awareness-image">
+        <img src="awarness.jpeg" alt="Mental Health Awareness Week 2025">
+    </div>
+</section>
+<section class="professionals">
+    <h2>For professionals</h2>
+    <div class="professional-cards">
+        <div class="card">
+            <div class="card-header">Helping someone with a mental health problem</div>
+            <img src="helpinghand.png" alt="Helping someone with mental health">
+            <button class="card-btn">Find out more</button>
+        </div>
+        <div class="card">
+            <div class="card-header">Mental health statistics</div>
+            <img src="mhstatsindia.jpeg" alt="Mental health statistics">
+            <button class="card-btn">Explore the statistics</button>
+        </div>
+        <div class="card">
+            <div class="card-header">Resources for working with young people</div>
+            <img src="working-with-young.jpg" alt="Resources for young people">
+            <button class="card-btn">Explore our resources</button>
+        </div>
+    </div>
+</section>
+
+
+<script src="script.js"></script>
+</body>
+</html>
